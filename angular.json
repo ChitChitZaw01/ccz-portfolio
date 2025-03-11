@@ -19,6 +19,7 @@
           "options": {
             "outputPath": "dist/ccz-portfolio",
             "index": "src/index.html",
+            "baseHref": "/ccz-portfolio/",
             "browser": "src/main.ts",
             "polyfills": [
               "zone.js"
@@ -94,6 +95,9 @@
             ],
             "scripts": []
           }
+        },
+        "deploy": {
+          "builder": "angular-cli-ghpages:deploy"
         }
       }
     }
