@@ -1,0 +1,82 @@
+.mat-toolbar {
+  background-color: #82b1ff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 16px;
+  width: 100%;
+  top: 0;
+  z-index: 2;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  height: 90px;
+  max-width: 100%;
+  object-fit: contain;
+}
+
+.title {
+  font-size: 2.7rem;
+  font-weight: bold;
+  margin-left: 10px;
+  color: #0f3657;
+}
+
+.spacer {
+  flex: 1;
+}
+
+mat-icon {
+  font-size: 24px;
+}
+
+/* Responsive styles for small screens */
+@media (max-width: 600px) {
+  .logo {
+    height: 60px;
+  }
+
+  .title {
+    font-size: 20px;
+  }
+
+  mat-icon {
+    font-size: 28px;
+  }
+}
+
+mat-button.custom-button {
+  font-weight: 200;
+  padding: 15px 30px;
+  font-size: 100px;
+}
+
+mat-sidenav {
+  width: 200px;
+}
+
+.side-menu-item {
+  color: white !important;
+  margin-top: 20px;
+}
+
+@media (min-width: 900px) {
+  #menuIcon {
+    display: none;
+  }
+
+  .mat-sidenav {
+    display: none;
+  }
+}
+
+@media (max-width: 900px) {
+  .top-menu-item {
+    display: none;
+  }
+}
