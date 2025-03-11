@@ -73,9 +73,11 @@ img {
 .info-section {
   width: 350px;
   border-radius: 8px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  /* box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); */
   overflow: hidden;
   transition: transform 0.3s ease;
+  justify-content: center;  /* Centers horizontally */
+  align-items: center;      /* Centers vertically */
 }
 
 .info-section:hover {
@@ -107,9 +109,6 @@ img {
 .container {
   display: flex;
   flex-direction: column;
-  /* Stack elements vertically */
-  /* justify-content: space-between; */
-  /* height: 100vh;  */
   padding: 20px;
 }
 
@@ -123,6 +122,17 @@ img {
 .justified-text {
   text-align: justify;
   line-height: 1.6;
+}
+
+.submit-btn {
+  padding: 15px 30px;
+  font-size: 18px;
+  border-radius: 15px;
+  font-weight: bold;
+  color: white;
+  background-color: #FFB8E0;
+  align-self: flex-end;
+  cursor: pointer;
 }
 
 @media (max-width: 768px) {

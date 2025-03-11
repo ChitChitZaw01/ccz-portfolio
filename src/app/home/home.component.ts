@@ -17,5 +17,11 @@ import { FooterComponent } from '../footer/footer.component';
   standalone: true
 })
 export class HomeComponent {
-
+  
+  
+  goToAbout() {
+    // Trigger any logic before navigating
+    console.log('Navigating to About Us page...');
+    // this.router.navigate(['/about']);  // Programmatically navigate
+  }
 }
