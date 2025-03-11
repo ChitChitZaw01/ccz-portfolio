@@ -19,31 +19,50 @@ import { FooterComponent } from '../footer/footer.component';
   styleUrl: './experience-and-education.component.scss'
 })
 export class ExperienceAndEducationComponent {
-  products = [
+  education = [
     {
-      name: 'English Literature',
-      description: 'Our English Literature course offers an immersive journey through the world of literature, guiding you through the complexities and beauty of texts from various genres and periods. Whether you’re new to the world of literature or looking to deepen your understanding, this course will help you explore the rich history and diverse voices of authors across time.',
-      // price: '$25.99',
-      image: 'assets/images/eng.jpg'
-    },
-    {
-      name: 'Japanese Literature',
-      description: 'Our Japanese Literature course offers a deep dive into the rich history of Japanese storytelling, from ancient texts to contemporary works. Whether you are a literature enthusiast or new to Japanese culture, this course will give you the tools to understand and appreciate the beauty and depth of Japan’s literary heritage.',
-      // price: '$79.99',
-      image: 'assets/images/jp.jpg'
-    },
-    {
-      name: 'Computer Science',
-      description: 'Our Computer Science course is designed to provide you with a solid foundation in the principles and practices of computer science. Whether you are starting from scratch or aiming to deepen your knowledge, this course will equip you with the skills necessary to understand, develop, and innovate in the world of technology.',
-      // price: '$34.99',
-      image: 'assets/images/it2.jpg'
+      major: 'Information Technology (IT)',
+      bachelor: 'Bachelor of Engineering (BE)',
+      university: 'Technological University (Mandalay)',
+      description: ' ',
+      image: 'assets/images/Bachelor1.png'
     }
-    // {
-    //   name: 'Thai Literature',
-    //   description: 'Our Thai Language course offers a comprehensive introduction to one of Southeast Asia’s most fascinating languages. Whether you are planning to travel to Thailand, engage with Thai culture, or simply want to learn a new language, this course will provide you with the skills and confidence to speak, read, and understand Thai.',
-    //   // price: '$19.99',
-    //   image: 'assets/images/it2.jpg'
-    // }
   ];
+
+  public experiences = [
+    {
+      position: 'DotNet Developer',
+      company: 'Secure Link Company Limited · Full-time',
+      date: 'Jun 2023 - Feb 2024 · 9 mos',
+      description: `
+        - Deployed and configured the system in production
+        - Exported Excel report file from database
+        - Developed and maintained in Web systems
+        - Involved in coding at backend and frontend
+        - Created in documentations such as the architecture of system of my
+          development part in technical documentation and manual unit testing
+        - Run tests to discover errors and optimize usability
+        - Joined the team of 4 to 7 members as a developer working directly
+          with a project leader
+      `,
+      image: 'assets/images/securelink_logo.png'
+    },
+    {
+      position: 'Software Developer',
+      company: 'TOSCO MYANMAR Co., Ltd. · Full-time',
+      date: 'Dec 2019 - Mar 2023 · 3 yrs 4 mos',
+      description: `
+        - Developed and maintained in Web systems
+        - Involved in coding at backend and frontend
+        - Created in documentations such as the architecture of system of my
+          development part in technical documentation and manual unit testing
+        - Run tests to discover errors and optimize usability
+        - Joined the team of 4 to 7 members as a developer working directly
+          with a project leader
+      `,
+      image: 'assets/images/tosco_company_logo.png'
+    }
+  ];
+
   constructor() { }
 }

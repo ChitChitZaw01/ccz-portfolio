@@ -1,16 +1,33 @@
 <div>
-    <h1 class="text-column2">Our Courses</h1>
-  </div>
-  
-  <mat-card *ngFor="let product of products" class="product-card">
-    <div class="product-details">
-      <img matCardImage [src]="product.image" alt="{{ product.name }}" class="product-image">
-      <div class="product-info">
-        <h3 class="name">{{ product.name }}</h3>
-        <p class="description">{{ product.description }}</p>
-        <!-- <span class="price">{{ product.price }}</span> -->
-      </div>
+  <h1 class="text-column2">Education</h1>
+</div>
+
+<mat-card *ngFor="let education of education" class="product-card">
+  <div class="product-details">
+    <img matCardImage [src]="education.image" alt="{{ education.major }}" class="product-image">
+    <div class="product-info">
+      <h3 class="name">{{ education.major }}</h3>
+      <h3 class="name">{{ education.bachelor }}</h3>
+      <h3 class="name">{{ education.university }}</h3>
+      <p class="description">{{ education.description }}</p>
     </div>
-  </mat-card>
-  
-  <!-- <app-footer></app-footer> -->
+  </div>
+</mat-card>
+
+<div>
+  <h1 class="text-column2">Experiences</h1>
+</div>
+
+<mat-card *ngFor="let experience of experiences" class="product-card">
+  <div class="product-details">
+    <img matCardImage [src]="experience.image" alt="{{ experience.position }}" class="product-image">
+    <div class="product-info">
+      <h3 class="name">{{ experience.position }}</h3>
+      <h3 class="name">{{ experience.company }}</h3>
+      <h3 class="name">{{ experience.date }}</h3>
+      <p class="description">{{ experience.description }}</p>
+    </div>
+  </div>
+</mat-card>
+
+<!-- <app-footer></app-footer> -->
