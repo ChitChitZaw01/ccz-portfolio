@@ -35,13 +35,13 @@ import { MatSidenav } from '@angular/material/sidenav';
   goToExperience() {
     // Trigger any logic before navigating
     console.log('Navigating to  Experience page...');
-    this.router.navigate(['/experience']);  // Programmatically navigate
+    this.router.navigate(['/experiences']);  // Programmatically navigate
   }
 
-  goToCourses() {
+  goToProjects() {
     // Trigger any logic before navigating
-    console.log('Navigating to courses page...');
-    this.router.navigate(['/courses']);  // Programmatically navigate
+    console.log('Navigating to projects page...');
+    this.router.navigate(['/projects']);  // Programmatically navigate
   }
 
   goToCotact() {
