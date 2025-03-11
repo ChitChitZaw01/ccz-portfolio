@@ -24,7 +24,7 @@
   border-radius: 15px;
   font-weight: bold;
   color: white;
-  background-color: #82b1ff;
+  background-color: #FFB8E0;
   align-self: flex-end;
   /* Align submit button to the right on larger screens */
   width: auto;
@@ -68,17 +68,17 @@
 
 .text-column h1 {
   font-size: 2rem;
-  color: #1e88e5;
+  color: #666;
 }
 
 .text-column h2 {
   font-size: 2rem;
-  color: #333;
+  color: #666;
 }
 
 .text-column p {
   font-size: 2rem;
-  color: #333;
+  color: #666;
   line-height: 1.6;
 }
 
