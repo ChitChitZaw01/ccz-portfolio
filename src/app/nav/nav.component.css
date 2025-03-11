@@ -1,5 +1,5 @@
 .mat-toolbar {
-  background-color: #82b1ff;
+  background-color: #FFB8E0;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -24,7 +24,7 @@
   font-size: 2.7rem;
   font-weight: bold;
   margin-left: 10px;
-  color: #0f3657;
+  color: #BE5985;
 }
 
 .spacer {
